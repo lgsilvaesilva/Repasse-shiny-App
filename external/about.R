@@ -41,7 +41,7 @@ function(){
                 strong('Luis Gustavo S. e Silva'),
                 p('Estatistico | useR'
                 ),br(),
-                a('Twitter', href="https://twitter.com/lgsilvaesilva", target="_blank"),
+                a('Twitter', href="https://github.com/lgsilvaesilva/Repasse-shiny-App", target="_blank"),
                 br()
                )
            ),
@@ -60,7 +60,7 @@ function(){
            br(),
            strong('Codigo'),
            p('Codigo fonte disponivel em',
-             a('GitHub', href="https://github.com/lgsilvaesilva/", target="_blank")),
+             a('GitHub', href="https://github.com/lgsilvaesilva/Repasse-shiny-App", target="_blank")),
            br()
           )
 }
