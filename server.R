@@ -8,10 +8,10 @@
 # ---------------------------------------------------
 # pacotes
 
-library(ggplot2)
-library(googleVis)
-library(shiny)
-library(plyr)
+if(!require(ggplot2)){install.packages("ggplot2", dep = T)}
+if(!require(googleVis)){install.packages("googleVis", dep = T)}
+if(!require(shiny)){install.packages("shiny", dep = T)}
+if(!require(plyr)){install.packages("plyr", dep = T)}
 
 # ---------------------------------------------------
 # Carregando os dados + ...
