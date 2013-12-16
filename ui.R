@@ -8,7 +8,7 @@
 # ---------------------------------------------------
 # pacotes
 
-library(shiny)
+if(!require(shiny)){install.packages("shiny", dep = T)}
 #tabPanelAbout <- source("C:\\Users\\Rodrigo\\Documents\\solve\\HACKATHON\\Repasse-shiny-00\\about.r")$value
 tabPanelAbout <- source("external/about.R")$value
 # ---------------------------------------------------
